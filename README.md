@@ -5,15 +5,15 @@ This is a very simple Node.js/Express.js user database API that employs MongoDB 
 It's a good example of a basic REST api that uses the four basic HTTP actions (GET, POST, PUT, DELETE)
 to handle CRUD operations.
 
-##OUTPUT
+###OUTPUT
 All output is in JSON (ideally you'd put a Backbone/Angular front-end on this),
 
 
-##INPUT
+###INPUT
 All POST and PUT form data should be in 'Content-type: application/json'
 
 
-##INSTALLATION
+###INSTALLATION
 just run
 ```
 $ npm install
