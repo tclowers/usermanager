@@ -6,7 +6,8 @@ var Server = mongo.Server,
 	BSON = mongo.BSONPure,
 	ObjectID = mongo.ObjectID;
 
-
+// Currently using MongoLab, but we can fall
+// back on MongoHQ or hand-coded URI like so
 var mongoUri = process.env.MONGOLAB_URI ||
   process.env.MONGOHQ_URL ||
   'mongodb://localhost/user_manager_db';

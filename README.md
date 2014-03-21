@@ -22,4 +22,7 @@ just run
 $ npm install
 ```
 to install the dependencies and you should be good to go. Works on localhost.
-If you're installing on Heroku, you also have add MongoLab or MongoHQ to run.
+If you're installing on Heroku, you also have add MongoLab or MongoHQ to run:
+```
+$ heroku addons:add mongolab
+```

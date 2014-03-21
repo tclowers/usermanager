@@ -3,10 +3,10 @@ var express = require('express'),
 var bodyParser = require('body-parser');
  
 var app = express();
-//app.configure(function () {
-//    app.use(express.logger('dev'));     /* 'default', 'short', 'tiny', 'dev' */
+app.configure(function () {
+    app.use(express.logger('dev'));     /* 'default', 'short', 'tiny', 'dev' */
     app.use(express.bodyParser());
-//});
+});
 
  
 //routes
